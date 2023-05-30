@@ -1,36 +1,4 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 10px;
-    background-image: linear-gradient(to right, #963AF2, #6533E5);
-    transition: ease-in-out .3s;
-}
-nav:hover{
-    transform:scaley(3.2)
-    
-}
-
-nav  p{
-    color: white;
-    transition: ease-in-out .3s;
-    position: absolute;
-}
-
-nav  p:hover{
-    transform: scale(1.2);
-
-}
-a{
-    
-    text-decoration: none;
-    
     
