@@ -21,7 +21,7 @@
 .container{
     background-color: hsl(244, 38%, 16%);
     max-width: 300px;
-    height: 80vh;
+   
     text-align: center;
     border-radius: 10px;
     display: flex;
@@ -41,7 +41,7 @@
 
     background-size: cover;
     background-repeat: no-repeat;
-    height: 25%;
+    height: 150px;
     border-radius: 10px 10px 0 0;
 }
 
