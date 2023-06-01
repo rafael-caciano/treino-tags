@@ -39,6 +39,7 @@
 
 .img__card{
     background-image: url("../../images/image-header-mobile.jpg");
+    background-position: center bottom;
     background-color: purple; /* Cor da máscara */
     background-blend-mode: overlay;
 
