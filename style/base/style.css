@@ -34,7 +34,7 @@
     flex-direction: column;
 
 
-    transition: width 3s ease, height 3s ease;
+    transition: width 2s ease-out, height 2s ease-out;
     
 }
 
