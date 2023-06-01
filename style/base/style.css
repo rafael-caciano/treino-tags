@@ -24,34 +24,65 @@
 
 .container{
     background-color: hsl(244, 38%, 16%);
-    max-width: 310px;
-    height: 500px;
+    max-width: 300px;
+    height: 80vh;
     text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    transition: width 3s ease, height 3s ease;
+    
 }
+
 
 .img__card{
     background-image: url("../../images/image-header-mobile.jpg");
+    background-color: purple; /* Cor da máscara */
+    background-blend-mode: overlay;
+
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30%;
+    height: 25%;
+    border-radius: 10px 10px 0 0;
 }
 
 .title{
-   width: 90%;
+   width: 80%;
    margin: auto; 
-   padding-top: 1rem;
+   padding-top: 1.2rem;
+}
+.title > span{
+    color: rgb(139, 60, 139);
 }
 
 .texto{
-    width: 90%;
+    font-size: .8rem;
+    width: 80%;
     margin: auto;
     padding: 1rem;
+    color: rgb(159, 158, 158);
 }
 
 .texto__2{
     width: 90%;
     margin: auto;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 .texto__2 > p {
-    padding-top: 0.8rem;
+    padding-top: 15px;
+    font-size: .8rem ;
+    color: rgb(159, 158, 158);
 }
+
+.texto__2 > p > span{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+
